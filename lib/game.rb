@@ -57,12 +57,12 @@ puts "Nous allons vous definir un symbole, une croix pour l’un et un rond pour
     
     end
 
-    def turn
+    # def turn
 
-        @board = Board.new
-         puts @board.play_turn
+    #     @board = Board.new
+    #      puts @board.play_turn
     
-    end
+    # end
     
 end
 

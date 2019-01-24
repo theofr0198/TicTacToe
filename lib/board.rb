@@ -1,7 +1,7 @@
 require 'pry'
 require_relative 'player'
 #require_relative 'boardcase'
-require_relative 'game'
+#require_relative 'game'
 
 class Board
 
@@ -38,13 +38,13 @@ class Board
 	# board[9] = caseid9
  #  end
 
-  def play_turn
-	#TO DO : une méthode qui :
-    player1 = Player.new(get_player1, "x")#1) demande au bon joueur ce qu'il souhaite faire
-    turn = 1
-    puts "#{player1.username}, c'est ton tour ! Où veux tu placer ta #{player1.symbol} ?"
-    print ">"
-    answer = gets.chomp
+ #  def play_turn
+	# #TO DO : une méthode qui :
+ #    player1 = Player.new(get_player1, "x")#1) demande au bon joueur ce qu'il souhaite faire
+ #    turn = 1
+ #    puts "#{player1.username}, c'est ton tour ! Où veux tu placer ta #{player1.symbol} ?"
+ #    print ">"
+ #    answer = gets.chomp
 
     # case answer
 
@@ -59,7 +59,7 @@ class Board
     # when "C3"	
 
     #2) change la BoardCase jouée en fonction de la valeur du joueur (X ou O)
-  end
+  #end
 
   def victory?
     #TO DO : une méthode qui vérifie le plateau et indique s'il y a un vainqueur ou match nul
